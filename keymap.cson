@@ -1,0 +1,62 @@
+'body':
+  # saving
+  'cmd-s': 'core:save'
+  'shift-cmd-S': 'core:save-as'
+  # text editing
+  'cmd-up': 'core:move-to-top'
+  'cmd-down': 'core:move-to-bottom'
+  'cmd-x': 'core:cut'
+  'cmd-c': 'core:copy'
+  'cmd-v': 'core:paste'
+  # panes
+  'cmd-k up': 'pane:split-up-and-copy-active-item'
+  'cmd-k down': 'pane:split-down-and-copy-active-item'
+  'cmd-k left': 'pane:split-left-and-copy-active-item'
+  'cmd-k right': 'pane:split-right-and-copy-active-item'
+  # hacking
+  'alt-cmd-i': 'window:t9oggle-dev-tools'
+  'cmd-,': 'settings-view:open'
+
+'.workspace':
+  'ctrl-shift-9': 'github:toggle-git-tab'
+
+'atom-text-editor':
+  'cmd-left': 'editor:move-to-first-character-of-line'
+  'cmd-right': 'editor:move-to-end-of-screen-line'
+  'cmd-/': 'editor:toggle-line-comments'
+  'ctrl-g': 'go-to-line:toggle'
+  'cmd-r': 'symbols-view:toggle-file-symbols'
+  'shift-cmd-R': 'symbols-view:toggle-project-symbols'
+  'shift-ctrl-up': 'editor:add-selection-above'
+  'shift-ctrl-down': 'editor:add-selection-below'
+  'ctrl-m': 'bracket-matcher:go-to-matching-bracket'
+
+'atom-workspace':
+  # text editor
+  'cmd-0': 'window:reset-font-size'
+  'cmd-+': 'window:increase-font-size'
+  'cmd--': 'window:decrease-font-size'
+  # panes
+  'ctrl-left': 'window:focus-pane-on-left'
+  'ctrl-right': 'window:focus-pane-on-right'
+  'ctrl-up': 'window:focus-pane-above'
+  'ctrl-down': 'window:focus-pane-below'
+  # views
+  'cmd-\\': 'tree-view:toggle'
+  'ctrl-0': 'tree-view:toggle-focus'
+  'cmd-.': 'key-binding-resolver:toggle'
+  'ctrl-shift-9': 'github:toggle-git-tab'
+  # search
+  'cmd-f': 'find-and-replace:show'
+  'cmd-g': 'find-and-replace:find-next'
+  'cmd-d': 'find-and-replace:select-next'
+  'cmd-ctrl-g': 'find-and-replace:select-all'
+  'shift-cmd-F': 'project-find:show'
+  'shift-cmd-P': 'command-palette:toggle'
+  'cmd-p': 'fuzzy-finder:toggle-file-finder'
+  'cmd-b': 'fuzzy-finder:toggle-buffer-finder'
+  # terminal
+  'ctrl-1': 'platformio-ide-terminal:focus'
+  'ctrl-`': 'platformio-ide-terminal:toggle'
+  # hacking
+  'cmd-.': 'key-binding-resolver:toggle'

@@ -1,0 +1,55 @@
+"*":
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "language-clojure"
+      "language-csharp"
+      "language-objective-c"
+      "language-perl"
+      "language-ruby-on-rails"
+      "language-toml"
+      "language-typescript"
+      "welcome"
+      "spell-check"
+      "language-gfm"
+    ]
+    projectHome: "/Users/nicolasm/Workspace"
+    telemetryConsent: "no"
+  editor:
+    fontSize: 16
+    preferredLineLength: 120
+    scrollPastEnd: true
+  "exception-reporting":
+    userId: "5b90a302-8ab2-4c67-a21d-58d18338269d"
+  linter:
+    ignoreGlob: "*.sbt"
+  "linter-pylint":
+    pythonPath: "/Users/nicolasm/Tools/spark-2.2.1-bin-hadoop2.7/python"
+  "linter-ui-default":
+    panelRepresents: "Entire Project"
+    showPanel: true
+  "platformio-ide-terminal":
+    style:
+      animationSpeed: 0
+      theme: "one-dark"
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+  "python-autopep8":
+    formatOnSave: true
+    maxLineLength: 120
+  "todo-show":
+    findTheseTodos: [
+      "NOTE"
+      "QUESTION"
+      "WTF"
+      "NB"
+      "TRACK"
+    ]
+    showInTable: [
+      "Text"
+    ]
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
